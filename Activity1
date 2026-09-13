@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+  printf("Name: (your name)");
+  printf("\nCourse & Year: (your course & year)");
+  printf("\nClass Schedule: (your class schedule)");
+  return 0;
+}
