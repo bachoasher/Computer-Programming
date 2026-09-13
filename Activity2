@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    float prelim;
+    float midterm;
+    float finals;
+    float finalgrade;
+    
+    printf("Enter prelim: ");
+    scanf("%f", &prelim);
+    printf("Enter midterm: ");
+    scanf("%f", &midterm);
+    printf("Enter finals: ");
+    scanf("%f", &finals);
+    
+    finalgrade = (prelim + midterm + finals) / 3;
+    
+    printf("Final grade: %.1f", finalgrade);
+    return 0;
+}
